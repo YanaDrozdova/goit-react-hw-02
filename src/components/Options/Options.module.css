@@ -1,0 +1,9 @@
+.container {
+    padding-top: 12px;
+    padding-left: 30px;
+}
+
+.list {
+    display: flex;
+    gap: 5px;
+}
