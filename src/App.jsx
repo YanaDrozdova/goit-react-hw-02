@@ -48,7 +48,11 @@ export default function App() {
         totalFeedback={totalFeedback}
       />
       {totalFeedback > 0 ? (
-        <Feedback feedback={values} positiveFeedback={positiveFeedback} />
+        <Feedback
+          feedback={values}
+          positiveFeedback={positiveFeedback}
+          totalFeedback={totalFeedback}
+        />
       ) : (
         <Notification />
       )}
